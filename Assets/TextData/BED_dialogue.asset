@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 288c2b4b8a6af594abafdcca4d1c9f68, type: 3}
+  m_Name: BED_dialogue
+  m_EditorClassIdentifier: 
+  dialogue:
+  - 'You went to bed.
+
+    Are you sure you want to call it a day?'
+  responses:
+  - responseText: Yes
+    dialogueObject: {fileID: 11400000, guid: 9b25aa1e3a565304899ff7741f20628c, type: 2}
+  - responseText: No
+    dialogueObject: {fileID: 11400000, guid: 57738bce8e989344f9b83c8bb81406df, type: 2}
